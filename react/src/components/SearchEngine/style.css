@@ -1,0 +1,21 @@
+.suggestion{
+    background-color: grey;
+    color: black;
+    max-height:200px ;
+    z-index: 1000;
+    position: fixed;
+    width: 250px;
+    overflow: auto;
+}
+.suggestion > div:hover{
+    color: white;
+}
+
+.searchResult{
+    z-index: 100;
+}
+.inputField{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+}

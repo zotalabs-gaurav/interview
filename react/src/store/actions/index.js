@@ -1,0 +1,3 @@
+export {
+    savePostData,
+} from './post';
